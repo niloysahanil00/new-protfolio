@@ -1,0 +1,50 @@
+a{
+    text-decoration: none;
+    list-style-type: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+
+}
+#menu{
+    background-color: black;
+    height: 50px;
+    width: 100%;
+}
+.mainmenu{
+    width: 80%;
+    padding-left: 100px;  
+}
+.mainmenu ul li {
+    display: inline-block;
+    line-height: 50px;
+    
+}
+.mainmenu ul li a {
+    font-size: 16px;
+    color: #fff;
+    text-transform: capitalize;
+    margin-left: 60px;
+    font-family: 'Poppins', sans-serif;
+}
+.mainmenu ul li a:hover {
+    background-color: red; 
+    padding: 14px 20px; 
+}
+.icon{
+    text-align: end;
+    padding-top: -30px;
+    width: 20%;
+}
+.icon i{
+    height: 30px;
+    width: 30px;
+    background-color: red;
+    border-radius: 50%;
+    color: #fff;
+    line-height: 30px;
+    text-align: center;
+    margin: 0px 10px;
+    
+}
